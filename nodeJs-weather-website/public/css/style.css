@@ -1,0 +1,60 @@
+body{
+    color: #333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+header{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+header a{
+    color: #888888;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.portrait{
+    width: 250px;
+}
+
+.main-content{
+    flex-grow: 1;
+}
+
+input{
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #888888;
+    color: white;
+    padding: 10px;
+}
+
+/* .container{
+    border: 1px solid rgb(49, 43, 43);
+    margin: 50px;
+    padding: 60px;
+} */
